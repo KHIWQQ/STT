@@ -29,7 +29,7 @@ tts.save('Hello.mp3')
 file = "AskforOil.mp3"
 print("Play mp3")
 os.system("mpg123 "+file)
-reduce noise 
+# reduce noise 
 r.adjust_for_ambient_noise(source)
 
 # device = ['HDA Intel PCH: CX8200 Analog (hw:0,0)', 'HDA Intel PCH: HDMI 0 (hw:0,3)', 'HDA Intel PCH: HDMI 1 (hw:0,7)', 'HDA Intel PCH: HDMI 2 (hw:0,8)', 'HDA Intel PCH: HDMI 3 (hw:0,9)', 'HDA Intel PCH: HDMI 4 (hw:0,10)', 'sysdefault', 'front', 'surround40', 'surround51', 'surround71', 'hdmi', 'samplerate', 'speexrate', 'pulse', 'upmix', 'vdownmix', 'dmix', 'default']
