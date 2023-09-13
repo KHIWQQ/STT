@@ -26,7 +26,7 @@ with sr.Microphone(device_index=0) as source:
 tts=gTTS(text='เติมน้ำมัน'+ text +'เรียบร้อย',lang='th')
 tts.save('Hello.mp3')
 
-file = "AskforOil.mp3"
+file = "Hello.mp3"
 print("Play mp3")
 os.system("mpg123 "+file)
 # reduce noise 
